@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Irrigation_System/v15
+/Debug
+/__vm
+/RCb16036
+/RCa16036
