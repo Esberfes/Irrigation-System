@@ -1,6 +1,11 @@
 #ifndef DATA_DATAMANAGER_H_
 #define DATA_DATAMANAGER_H_
 
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "arduino.h"
+#else
+#include "WProgram.h"
+#endif
 
 #include "DataEntry.h"
 #include "EEPROM.h"

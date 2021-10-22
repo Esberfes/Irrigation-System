@@ -24,12 +24,39 @@
     <ClInclude Include="DataManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.Irrigation_System.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataEntry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

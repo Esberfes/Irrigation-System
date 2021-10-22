@@ -6,25 +6,19 @@
     Author:     Javier Casas Velasco
 */
 
-// Define User Types below here or use a .h file
-//
-
-
-// Define Function Prototypes that use User Types below here or use a .h file
-//
-
-
-// Define Functions below here or use other .ino or cpp files
-//
-
-// The setup() function runs once each time the micro-controller starts
-#include "ScreenManger.h"
-#include "Screen.h"
+#include "Test.h"
+#include <U8g2lib.h>
 #include <EEPROM.h>
-#include <LiquidCrystal_I2C.h>
+#include "ScreenMenu.h"
+#include "ScreenView.h"
+#include <U8x8lib.h>
+#include "ScreenLine.h"
+#include "ScreenManager.h"
 #include "DataManager.h"
 
+
 DataManager dataManager;
+ScreenManager screenManger;
 
 void setup()
 {
@@ -32,37 +26,19 @@ void setup()
 	while (!Serial) {
 		; // wait for serial port to connect. Needed for Leonardo only
 	}
-	DataEntry mykey = { 0, 1, "bb"};
-	Serial.println("Start");
-	//DataEntry inserted = dataManager.put(mykey);
-	DataEntry  other = dataManager.get(4);
+	screenManger.init();
+	Serial.println("setup");
 
-	Serial.print("Add: ");
-	Serial.println(other.address);
-	Serial.print("Key: ");
-	Serial.println(other.key);
-	Serial.print("Value: ");
-	Serial.println(other.value);
 }
 
 // Add the main program code into the continuous loop() function
 void loop()
 {
-	/*
-	DataEntry data = dataManager.get(mykey.address);
+	Serial.println("loop");
 
-	Serial.println(data.value);
-	Serial.println(data.address);
-	Serial.println(data.key);
 
-	Serial.print("capacity: ");
-	Serial.println(dataManager.capacity());
-	Serial.print("reaming: ");
-	Serial.println(dataManager.remingCapacity());
-	unsigned long x = millis();
+	screenManger.render({"hi"});
 
 	delay(1000);
-	*/
-	
 }
 
