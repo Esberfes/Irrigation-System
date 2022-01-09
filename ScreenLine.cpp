@@ -7,7 +7,7 @@
 #include "WProgram.h"
 #endif
 
-ScreenLine::ScreenLine(char* line)
+ScreenLine::ScreenLine(char lines[])
 {
 	this->line = line;
 }

@@ -6,6 +6,9 @@
     Author:     Javier Casas Velasco
 */
 
+#include <Keypad.h>
+#include <Key.h>
+#include <Servo.h>
 #include "Test.h"
 #include <U8g2lib.h>
 #include <EEPROM.h>
@@ -39,6 +42,6 @@ void loop()
 
 	screenManger.render({"hi"});
 
-	delay(1000);
+
 }
 

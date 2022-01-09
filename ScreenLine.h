@@ -17,7 +17,7 @@ class ScreenLine {
 
 	public:
 		char* line;
-		ScreenLine(char* line);
+		ScreenLine(char lines[]);
 		ScreenLine();
 };
 

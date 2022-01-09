@@ -9,12 +9,42 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EEPROM-2.0", "..\libraries\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "U8g2-2.27.6", "..\libraries\U8g2\U8g2-2.27.6.vcxitems", "{2419F5D9-7483-427D-B2A6-5D8C78ED39EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScannerIR", "..\ScannerIR\ScannerIR.vcxproj", "{DE799547-222E-4A20-9057-C93646F39CB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sketch1", "..\Sketch1\Sketch1.vcxproj", "{482587F3-588A-49DC-900D-0B66077C778A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RC_ESC-1.1.0", "..\libraries\RC_ESC\RC_ESC-1.1.0.vcxitems", "{D896E4EA-FFE0-4DAD-A4FF-E6DADFDB9A74}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Servo-1.1.2", "..\libraries\Servo\Servo-1.1.2.vcxitems", "{22B6B824-9136-4211-85CF-DCC84DFF65D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESC_Calibration", "..\libraries\RC_ESC\examples\ESC_Calibration\ESC_Calibration.vcxproj", "{7C60CF60-7FC8-450E-A65E-857F8B148659}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_MPU6050-2.0.5", "..\libraries\Adafruit_MPU6050\Adafruit_MPU6050-2.0.5.vcxitems", "{BDBB780C-8DB7-4A09-8638-4326AEA4B541}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_Sensor_Calibration-1.1.3", "..\libraries\Adafruit_Sensor_Calibration\Adafruit_Sensor_Calibration-1.1.3.vcxitems", "{C6D3CDD7-6957-470B-95C9-3DC072498B02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_Sensor_Lab-0.6.0", "..\libraries\Adafruit_Sensor_Lab\Adafruit_Sensor_Lab-0.6.0.vcxitems", "{7CEE89F6-DED5-41C6-AD63-8B43FB56BF5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Keypad-3.1.1", "..\libraries\Keypad\Keypad-3.1.1.vcxitems", "{BDD444A5-E9A7-43BD-9954-03B66F678110}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\libraries\Servo\Servo-1.1.2.vcxitems*{22b6b824-9136-4211-85cf-dcc84dff65d6}*SharedItemsImports = 9
 		..\libraries\U8g2\U8g2-2.27.6.vcxitems*{2419f5d9-7483-427d-b2a6-5d8c78ed39ec}*SharedItemsImports = 9
+		..\libraries\Adafruit_MPU6050\Adafruit_MPU6050-2.0.5.vcxitems*{482587f3-588a-49dc-900d-0b66077c778a}*SharedItemsImports = 4
+		..\libraries\Adafruit_Sensor_Calibration\Adafruit_Sensor_Calibration-1.1.3.vcxitems*{482587f3-588a-49dc-900d-0b66077c778a}*SharedItemsImports = 4
+		..\libraries\Adafruit_Sensor_Lab\Adafruit_Sensor_Lab-0.6.0.vcxitems*{482587f3-588a-49dc-900d-0b66077c778a}*SharedItemsImports = 4
+		..\libraries\RC_ESC\RC_ESC-1.1.0.vcxitems*{482587f3-588a-49dc-900d-0b66077c778a}*SharedItemsImports = 4
+		..\libraries\Adafruit_Sensor_Lab\Adafruit_Sensor_Lab-0.6.0.vcxitems*{7cee89f6-ded5-41c6-ad63-8b43fb56bf5d}*SharedItemsImports = 9
+		..\libraries\Adafruit_MPU6050\Adafruit_MPU6050-2.0.5.vcxitems*{bdbb780c-8db7-4a09-8638-4326aea4b541}*SharedItemsImports = 9
+		..\libraries\Keypad\Keypad-3.1.1.vcxitems*{bdd444a5-e9a7-43bd-9954-03b66f678110}*SharedItemsImports = 9
 		..\libraries\EEPROM\EEPROM-2.0.vcxitems*{c1583c10-3e84-49c4-b003-066ddaadb008}*SharedItemsImports = 9
 		..\libraries\EEPROM\EEPROM-2.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\Keypad\Keypad-3.1.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\Servo\Servo-1.1.2.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
 		..\libraries\U8g2\U8g2-2.27.6.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		..\libraries\Adafruit_Sensor_Calibration\Adafruit_Sensor_Calibration-1.1.3.vcxitems*{c6d3cdd7-6957-470b-95c9-3dc072498b02}*SharedItemsImports = 9
+		..\libraries\RC_ESC\RC_ESC-1.1.0.vcxitems*{d896e4ea-ffe0-4dad-a4ff-e6dadfdb9a74}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +55,18 @@ Global
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{DE799547-222E-4A20-9057-C93646F39CB8}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE799547-222E-4A20-9057-C93646F39CB8}.Debug|x86.Build.0 = Debug|Win32
+		{DE799547-222E-4A20-9057-C93646F39CB8}.Release|x86.ActiveCfg = Release|Win32
+		{DE799547-222E-4A20-9057-C93646F39CB8}.Release|x86.Build.0 = Release|Win32
+		{482587F3-588A-49DC-900D-0B66077C778A}.Debug|x86.ActiveCfg = Debug|Win32
+		{482587F3-588A-49DC-900D-0B66077C778A}.Debug|x86.Build.0 = Debug|Win32
+		{482587F3-588A-49DC-900D-0B66077C778A}.Release|x86.ActiveCfg = Release|Win32
+		{482587F3-588A-49DC-900D-0B66077C778A}.Release|x86.Build.0 = Release|Win32
+		{7C60CF60-7FC8-450E-A65E-857F8B148659}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C60CF60-7FC8-450E-A65E-857F8B148659}.Debug|x86.Build.0 = Debug|Win32
+		{7C60CF60-7FC8-450E-A65E-857F8B148659}.Release|x86.ActiveCfg = Release|Win32
+		{7C60CF60-7FC8-450E-A65E-857F8B148659}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
